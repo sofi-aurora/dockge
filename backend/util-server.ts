@@ -28,6 +28,7 @@ export interface Arguments {
     sslKeyPassphrase? : string;
     port? : number;
     hostname? : string;
+    webhookHostname? :string;
     dataDir? : string;
     stacksDir? : string;
 }
