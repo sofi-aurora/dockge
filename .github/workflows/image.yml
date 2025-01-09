@@ -2,7 +2,7 @@
 name: Autobuild our image
 on:
   push:
-    branches: main
+    branches: master
 jobs:
   build:
     runs-on: ubuntu-latest
