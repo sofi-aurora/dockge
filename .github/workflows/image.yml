@@ -20,19 +20,15 @@ jobs:
       - name: build healthcheck
         run: |
           docker buildx build --push -f docker/BuildHealthCheck.Dockerfile \
-            --platform linux/amd64,linux/arm64,linux/arm/v6,linux/arm/v7 \
+            --platform linux/amd64,linux/arm64 \
             -t sofiaurora/dockge:build-healthcheck .
       - name: build base
         run: |
           docker buildx build --push -f ./docker/Base.Dockerfile \
-          --platform linux/amd64,linux/arm64,linux/arm/v6,linux/arm/v7 \
+          --platform linux/amd64,linux/arm64 \
           -t sofiaurora/dockge:base .
       - name: build the image
         run: |
           node ./extra/env2arg.js docker buildx build --push -f ./docker/Dockerfile \
-          --platform linux/amd64,linux/arm64,linux/arm/v6,linux/arm/v7 \
+          --platform linux/amd64,linux/arm64 \
           -t sofiaurora/dockge:latest --target release .
-
-          docker buildx build --push \
-            --tag forgenator/monitor.sh:latest \
-            --platform linux/amd64,linux/arm64,linux/arm/v6,linux/arm/v7 .
