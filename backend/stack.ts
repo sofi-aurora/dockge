@@ -140,7 +140,7 @@ export class Stack {
     get webhook() : string {
         //TODO: refine this.
         if (this.server.config.webhookHostname) {
-            return `http://${this.server.config.webhookHostname}/webhook/update/${this.name}`;
+            return `https://${this.server.config.webhookHostname}/webhook/update/${this.name}`;
         } else {
             return `http://localhost:${this.server.config.port}/webhook/update/${this.name}`;
         }
