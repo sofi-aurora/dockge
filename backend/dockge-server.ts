@@ -133,6 +133,10 @@ export class DockgeServer {
                 type: String,
                 optional: true,
             },
+            webhookHostname: {
+                type: String,
+                optional: true,
+            },
             dataDir: {
                 type: String,
                 optional: true,
