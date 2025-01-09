@@ -261,7 +261,6 @@ export class DockerSocketHandler extends AgentSocketHandler {
             }
         });
 
-
         // down stack
         agentSocket.on("downStack", async (stackName : unknown, callback) => {
             try {

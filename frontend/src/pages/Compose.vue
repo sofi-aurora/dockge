@@ -1,7 +1,7 @@
 <template>
     <transition name="slide-fade" appear>
         <div>
-            <h1 v-if="isAdd" class="mb-3">{{$t("compose")}}</h1>
+            <h1 v-if="isAdd" class="mb-3">{{ $t("compose") }}</h1>
             <h1 v-else class="mb-3">
                 <Uptime :stack="globalStack" :pill="true" /> {{ stack.name }}
                 <span v-if="$root.agentCount > 1" class="agent-name">
@@ -175,7 +175,6 @@
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
 
                     <!-- Containers -->
@@ -224,7 +223,7 @@
 
                     <!-- Combined Terminal Output -->
                     <div v-show="!isEditMode">
-                        <h4 class="mb-3">{{$t("terminal")}}</h4>
+                        <h4 class="mb-3">{{ $t("terminal") }}</h4>
                         <Terminal
                             ref="combinedTerminal"
                             class="mb-3 terminal"
@@ -916,7 +915,7 @@ export default {
                 }
             });
         },
-        
+
         async copyWebhookToClipboard() {
             try {
                 await navigator.clipboard.writeText(this.stack.webhook);
@@ -927,7 +926,7 @@ export default {
         },
         selectText(event) {
             event.target.select();
-        },    
+        },
     }
 };
 </script>
