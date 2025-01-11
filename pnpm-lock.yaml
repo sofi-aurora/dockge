@@ -149,10 +149,10 @@ importers:
         version: 4.5.2(vite@5.4.11(@types/node@22.10.5)(sass@1.68.0))(vue@3.5.13(typescript@5.2.2))
       '@xterm/addon-fit':
         specifier: beta
-        version: 0.11.0-beta.94(@xterm/xterm@5.6.0-beta.94)
+        version: 0.11.0-beta.96(@xterm/xterm@5.6.0-beta.96)
       '@xterm/xterm':
         specifier: beta
-        version: 5.6.0-beta.94
+        version: 5.6.0-beta.96
       bootstrap:
         specifier: 5.3.2
         version: 5.3.2(@popperjs/core@2.11.8)
@@ -185,7 +185,7 @@ importers:
         version: 5.2.2
       unplugin-vue-components:
         specifier: ~0.25.2
-        version: 0.25.2(@babel/parser@7.26.3)(rollup@4.30.1)(vue@3.5.13(typescript@5.2.2))
+        version: 0.25.2(@babel/parser@7.26.5)(rollup@4.30.1)(vue@3.5.13(typescript@5.2.2))
       vite:
         specifier: ~5.4.11
         version: 5.4.11(@types/node@22.10.5)(sass@1.68.0)
@@ -239,8 +239,8 @@ packages:
     resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.26.3':
-    resolution: {integrity: sha512-WJ/CvmY8Mea8iDXo6a7RK2wbmJITT5fN3BEkRuFlxVyNx8jOKIIhmC4fSkTcPcf8JyavbBwIe6OpiCOBXt/IcA==}
+  '@babel/parser@7.26.5':
+    resolution: {integrity: sha512-SRJ4jYmXRqV1/Xc+TIVG84WjHBXKlxO9sHQnA2Pf12QQEAp1LOh6kDzNHXcUnbH1QI0FDoPPVOt+vyUDucxpaw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -248,8 +248,8 @@ packages:
     resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.26.3':
-    resolution: {integrity: sha512-vN5p+1kl59GVKMvTHt55NzzmYVxprfJD+ql7U9NFIfKCBkYE55LYtS+WtPlaYOyzydrKI8Nezd+aZextrd+FMA==}
+  '@babel/types@7.26.5':
+    resolution: {integrity: sha512-L6mZmwFDK6Cjh1nRCLXpa6no13ZIioJDz7mdkzHv399pThrTa/k0nUlNaenOeh2kWu/iaOQYElEpKPUswUa9Vg==}
     engines: {node: '>=6.9.0'}
 
   '@colors/colors@1.5.0':
@@ -1027,13 +1027,13 @@ packages:
   '@vueuse/shared@10.11.1':
     resolution: {integrity: sha512-LHpC8711VFZlDaYUXEBbFBCQ7GS3dVU9mjOhhMhXP6txTV4EhYQg/KGnQuvt/sPAtoUKq7VVUnL6mVtFoL42sA==}
 
-  '@xterm/addon-fit@0.11.0-beta.94':
-    resolution: {integrity: sha512-TKg8P3ovs4dfF7+RzBKrDdUvvqSb+OUZoFk2l0a1PdY4LrH+sApe99U1ujeRFnBnKyR8VNiHq2OZ9yb98em2Fw==}
+  '@xterm/addon-fit@0.11.0-beta.96':
+    resolution: {integrity: sha512-4otmfHrVkwLYeSshHen+crkQJPg2FOhrRN8EC2rqHMOxacSvwyysMGAqKfbD1ntVN71Zp/xdEyxKC+Lxgpvx1A==}
     peerDependencies:
-      '@xterm/xterm': ^5.6.0-beta.94
+      '@xterm/xterm': ^5.6.0-beta.96
 
-  '@xterm/xterm@5.6.0-beta.94':
-    resolution: {integrity: sha512-bHizB8g526p2ua0H+5Hm+87TFut7Dvi4kcdo5fz+bK+ojneRrpwdTyZF8pl6atZJddMGSu573tFDoZoHgumOGA==}
+  '@xterm/xterm@5.6.0-beta.96':
+    resolution: {integrity: sha512-XdOZyAaqOW67J3kJGJDgVb5skTD2nDQLmBICyhQ0cEqThTKrX5CzB11RswG6rZE8dI+nDE+pc93NjAMXSrQgFg==}
 
   abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
@@ -2281,8 +2281,8 @@ packages:
   lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
 
-  long@5.2.3:
-    resolution: {integrity: sha512-lcHwpNoggQTObv5apGNCTdJrO69eHOZMi4BNC+rTLER8iHAqGrUVeLh/irVIM7zTw2bOXA8T6uNPeujwOLg/2Q==}
+  long@5.2.4:
+    resolution: {integrity: sha512-qtzLbJE8hq7VabR3mISmVGtoXP8KGc2Z/AT8OuqlYD7JTR3oqrgwdjnk07wpj1twXxYmgDXgoKVWUG/fReSzHg==}
 
   loose-envify@1.4.0:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
@@ -3415,15 +3415,15 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.25.9': {}
 
-  '@babel/parser@7.26.3':
+  '@babel/parser@7.26.5':
     dependencies:
-      '@babel/types': 7.26.3
+      '@babel/types': 7.26.5
 
   '@babel/runtime@7.26.0':
     dependencies:
       regenerator-runtime: 0.14.1
 
-  '@babel/types@7.26.3':
+  '@babel/types@7.26.5':
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
@@ -4061,7 +4061,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.13':
     dependencies:
-      '@babel/parser': 7.26.3
+      '@babel/parser': 7.26.5
       '@vue/shared': 3.5.13
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -4074,7 +4074,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.13':
     dependencies:
-      '@babel/parser': 7.26.3
+      '@babel/parser': 7.26.5
       '@vue/compiler-core': 3.5.13
       '@vue/compiler-dom': 3.5.13
       '@vue/compiler-ssr': 3.5.13
@@ -4134,11 +4134,11 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@xterm/addon-fit@0.11.0-beta.94(@xterm/xterm@5.6.0-beta.94)':
+  '@xterm/addon-fit@0.11.0-beta.96(@xterm/xterm@5.6.0-beta.96)':
     dependencies:
-      '@xterm/xterm': 5.6.0-beta.94
+      '@xterm/xterm': 5.6.0-beta.96
 
-  '@xterm/xterm@5.6.0-beta.94': {}
+  '@xterm/xterm@5.6.0-beta.96': {}
 
   abbrev@1.1.1: {}
 
@@ -5602,7 +5602,7 @@ snapshots:
 
   lodash@4.17.21: {}
 
-  long@5.2.3: {}
+  long@5.2.4: {}
 
   loose-envify@1.4.0:
     dependencies:
@@ -5745,7 +5745,7 @@ snapshots:
       denque: 2.1.0
       generate-function: 2.3.1
       iconv-lite: 0.6.3
-      long: 5.2.3
+      long: 5.2.4
       lru.min: 1.1.1
       named-placeholders: 1.1.3
       seq-queue: 0.0.5
@@ -6582,7 +6582,7 @@ snapshots:
 
   unpipe@1.0.0: {}
 
-  unplugin-vue-components@0.25.2(@babel/parser@7.26.3)(rollup@4.30.1)(vue@3.5.13(typescript@5.2.2)):
+  unplugin-vue-components@0.25.2(@babel/parser@7.26.5)(rollup@4.30.1)(vue@3.5.13(typescript@5.2.2)):
     dependencies:
       '@antfu/utils': 0.7.10
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
@@ -6596,7 +6596,7 @@ snapshots:
       unplugin: 1.16.1
       vue: 3.5.13(typescript@5.2.2)
     optionalDependencies:
-      '@babel/parser': 7.26.3
+      '@babel/parser': 7.26.5
     transitivePeerDependencies:
       - rollup
       - supports-color
