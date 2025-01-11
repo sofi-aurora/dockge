@@ -30,12 +30,17 @@ View Video: https://youtu.be/AWAlOQeNpgU?t=48
 
 ![](https://github.com/louislam/dockge/assets/1336778/89fc1023-b069-42c0-a01c-918c495f1a6a)
 
+# Forked Repo
+*THIS HAS BEEN FORKED MANUALLY FROM cmcooper1980. Code has been merged manually since they couldn't be merged automatically.*
+
+- I'm autobuilding this image to here: https://hub.docker.com/repository/docker/sofiaurora/dockge
+
 ## ⭐ Pull Requests Merged:
 - PR #414: Set/Update Friendly Name (by https://github.com/lohrbini)
 - PR #438: Docker Compose Pull Skip Local Images (by https://github.com/vladaurosh)
 - PR #471: GitOps - Stacks managed by Git (by https://github.com/Felioh) - Manually merged.
 - PR #575: Theme Options Enabled in Settings (by https://github.com/CampaniaGuy)
-- PR #576: Add an Update All Button (by https://github.com/DomiiBunn)
+- PR #576: Add an Update All Button (by https://github.com/DomiiBunn) - Manually merged.
 - PR #593: Feature: Group stacks by its agent (by https://gitub.com/ESPGranEdu)
 - PR #623: Added Support for Pasting Text in the Terminal (by https://github.com/lukasondrejka)
 - PR #634: Build Frontend During Docker Build (by https://github.com/Jamie-)
@@ -43,7 +48,6 @@ View Video: https://youtu.be/AWAlOQeNpgU?t=48
 - PR #642: Remove Useless Scrollbar (by https://github.com/cyril59310)
 - PR #649: Add Container Control Buttons (by https://github.com/mizady)
 - PR #685: Preserve YAML Comments (by https://github.com/turnah)
-
 
 ## 🔧 How to Install
 
