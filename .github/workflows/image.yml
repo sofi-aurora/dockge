@@ -1,8 +1,11 @@
----
-name: Autobuild our image
+name: Autobuild image and push to Docker Hub
+
 on:
   push:
-    branches: master
+    branches: [master]
+    paths-ignore:
+      - '*.md'
+
 jobs:
   build:
     runs-on: ubuntu-latest
