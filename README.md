@@ -40,8 +40,8 @@ View Video: https://youtu.be/AWAlOQeNpgU?t=48
 - PR #438: Docker Compose Pull Skip Local Images (by https://github.com/vladaurosh)
 - PR #471: GitOps - Stacks managed by Git (by https://github.com/Felioh) - Manually merged.
 - PR #575: Theme Options Enabled in Settings (by https://github.com/CampaniaGuy)
-- PR #576: Add an Update All Button (by https://github.com/DomiiBunn) - Manually merged.
-- PR #593: Feature: Group stacks by its agent (by https://gitub.com/ESPGranEdu)
+- PR #576: Add an Update All Button (by https://github.com/DomiiBunn)
+- PR #593: Feature: Group stacks by its agent (by https://gitub.com/ESPGranEdu) - Manually merged.
 - PR #623: Added Support for Pasting Text in the Terminal (by https://github.com/lukasondrejka)
 - PR #634: Build Frontend During Docker Build (by https://github.com/Jamie-)
 - PR #637: Implement RIGHT and LEFT KEYS terminal navigation (by https://github.com/lukasondrejka)
