@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      release_date: ${{ steps.outputs.RELEASE_DATE }}
     steps:
       - name: checkout code
         uses: actions/checkout@v2
@@ -17,6 +19,9 @@ jobs:
         uses: crazy-max/ghaction-docker-buildx@v1
         with:
           version: latest
+      - name: Set RELEASE_DATE
+        run: |
+          echo "RELEASE_DATE=$(date --rfc-3339=date)" >> ${GITHUB_OUTPUT}
       - name: login to docker hub
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{
           secrets.DOCKER_USERNAME }}" --password-stdin
@@ -32,6 +37,7 @@ jobs:
           -t sofiaurora/dockge:base .
       - name: build the image
         run: |
+          set -x       
           node ./extra/env2arg.js docker buildx build --push -f ./docker/Dockerfile \
           --platform linux/amd64,linux/arm64 \
-          -t sofiaurora/dockge:latest --target release .
+          -t sofiaurora/dockge:${{ steps.outputs.RELEASE_DATE }} -t sofiaurora/dockge:latest --target release .
